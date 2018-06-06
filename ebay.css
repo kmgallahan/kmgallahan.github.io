@@ -28,3 +28,11 @@
     position: relative;
     margin: 5px 5px;
 }
+
+.sectionheading{
+    padding: 10px 5% 10px 5%;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
