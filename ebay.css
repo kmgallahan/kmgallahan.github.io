@@ -16,7 +16,7 @@
 
 .navbutton{
     text-decoration: unset;
-    background-color: #f5f5f5;
+    background-color: #b7c7bd;
     color: black;
     padding: 8px 16px;
     display: inline-block;
@@ -31,8 +31,13 @@
 
 .sectionheading{
     padding: 10px 5% 10px 5%;
-    background-color: #f4f4f4;
+    background-color: #b7c7bd;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+}
+
+.note{
+    padding: 10px 3% 10px 3%;
+    background-color: #dbb700;
 }
