@@ -18,7 +18,7 @@
     text-decoration: unset;
     background-color: #b7c7bd;
     color: black;
-    padding: 8px 16px;
+    padding: 8px 14px;
     display: inline-block;
     box-sizing: border-box;
 }
@@ -26,7 +26,7 @@
 .navbuttonwrapper{
     display: inline-block;
     position: relative;
-    margin: 5px 5px;
+    margin: 5px 4px;
 }
 
 .sectionheading{
