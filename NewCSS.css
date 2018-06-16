@@ -86,6 +86,8 @@
     font-size: 20px;
     border: 1px solid #ddd;
     padding: 8px 20px 8px 20px;
+    border-collapse: collapse;
+    cellpadding: 6;
 }
 
 .innertextcontainer{
