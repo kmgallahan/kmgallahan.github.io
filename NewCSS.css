@@ -123,3 +123,11 @@
    border:1px solid #dedede;
    font-size: 18px;
 }
+
+.policytext hr {
+    font-size: 18px;
+}
+
+.policytext {
+    font-size: 16px;
+}
