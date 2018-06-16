@@ -107,8 +107,7 @@
     padding: 8px 20px 8px 20px;
 }
 
-.detailtable tr:not(:first-child):not(:last-child), .conditiontable tr:not(:first-child):not(:last-child) {
-    border-bottom: 1px solid #dedede;
+.detailtable tr:not(:first-child), .conditiontable tr:not(:first-child) {
     border-top: 1px solid #dedede;
 }
 
