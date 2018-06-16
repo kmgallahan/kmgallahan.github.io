@@ -82,16 +82,6 @@
     padding-bottom: 15px;
 }
 
-.detailtable, .conditiontable{
-    border-collapse: collapse;
-}
-
-.detailtable td, .detailtable th {
-    font-size: 20px;
-    padding: 8px 20px 8px 20px;
-    border: 1px solid #ddd;
-}
-
 .innertextcontainer{
     padding:15px 7% 10px 7%;
 }
@@ -108,10 +98,22 @@
     z-index: 99;
 }
 
+.detailtable, .conditiontable{
+    border-collapse: collapse;
+}
+
+.detailtable td, .detailtable th {
+    font-size: 20px;
+    padding: 8px 20px 8px 20px;
+}
+
+.detailtable tr, .conditiontable tr {
+    background-color: #f2f2f2;
+}
+
 .conditiontable td, .conditiontable th {
     font-size: 18px;
     padding: 8px 20px 8px 20px;
-    border: 1px solid #ddd;
 }
 
 .conditionsystemcontainer{
