@@ -21,6 +21,15 @@
     padding-top: 10;
 }
 
+.navbutton{	
+    text-decoration: unset;	
+    background-color: #b7c7bd;	
+    color: black;	
+    padding: 8px 14px;	
+    display: inline-block;	
+    box-sizing: border-box;	
+}
+
 .navbuttonwrapper{
     display: inline-block;
     position: relative;
