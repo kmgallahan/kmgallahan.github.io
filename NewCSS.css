@@ -38,7 +38,7 @@
 }
 
 .note{
-    padding: 1px 10px;
+    padding: 1px 20px;
     background-color: #dbb700;
     text-align: center;
     font-size: 20px;
@@ -48,7 +48,10 @@
 
 .outernotecontainer{
     max-width: 775px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .innernotecontainer{
@@ -107,8 +110,9 @@
     padding: 8px 20px 8px 20px;
 }
 
-.detailtable tr:nth-child(even), .conditiontable tr:nth-child(even) {
-    background-color: #f2f2f2;
+.detailtable tr, .conditiontable tr {
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
 }
 
 .conditiontable td, .conditiontable th {
