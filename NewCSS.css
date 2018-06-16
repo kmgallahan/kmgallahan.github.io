@@ -43,13 +43,12 @@
     text-align: center;
     font-size: 20px;
     display: inline-block;
+    position: relative;
 }
 
 .outernotecontainer{
     max-width: 775px;
-    margin: auto; 
-    display: inline-block;
-    position: relative;
+    margin: auto;
 }
 
 .innernotecontainer{
