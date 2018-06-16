@@ -82,7 +82,7 @@
 }
 
 .innertextcontainer{
-    padding:15px 7% 10px 7%;
+    padding:15px 7% 15px 7%;
 }
 
 #gallerycontainer{
@@ -130,4 +130,5 @@
 
 .policytext {
     font-size: 16px;
+    padding:15px 7% 15px 7%;
 }
