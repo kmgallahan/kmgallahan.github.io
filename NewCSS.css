@@ -82,7 +82,7 @@
     padding-bottom: 15px;
 }
 
-#detailtable td, #detailtable th {
+#detailtable td, #detailtable th, #conditiontable td, #conditiontable th {
     font-size: 20px;
     border: 1px solid #ddd;
     padding: 8px 20px 8px 20px;
