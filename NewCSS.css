@@ -44,14 +44,12 @@
 }
 
 .outernotecontainer{
-    .note;
-    margin: auto;
+    width: auto;
     max-width: 800;
     position: relative;
 }
 
 .innernotecontainer{
-    .note
     margin: 10px 15% 10px 15%;
 }
 
@@ -118,7 +116,7 @@
 
 .conditionsystemcontainer{
    margin-top: 15px;
-   padding: 10px 5% 10px 5%;
+   padding: 0px 5% 10px 5%;
    color:#333;
    border:1px solid #dedede;
    font-size: 18px;
