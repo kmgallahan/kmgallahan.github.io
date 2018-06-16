@@ -82,7 +82,7 @@
     padding-bottom: 15px;
 }
 
-.detailtable{
+.detailtable, .conditiontable{
     border-collapse: collapse;
     cellpadding: 6;
     border: 1px solid #ddd;
