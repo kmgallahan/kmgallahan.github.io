@@ -27,21 +27,19 @@
     margin: 5px 4px;
 }
 
-.navbutton{
-    text-decoration: unset;
-    background-color: #b7c7bd;
-    color: black;
-    padding: 8px 14px;
-    display: inline-block;
-    box-sizing: border-box;
-}
-
 .note{
-    padding: 10px 3% 10px 3%;
+    padding: 1px 1px 1px 1px;
     background-color: #dbb700;
     text-align: center;
     font-size: 20px;
-    display: inline;
+    display: block;
+}
+
+.outernotecontainer{
+    width: auto;
+    max-width: 800;
+    position: relative;
+    margin: auto;
 }
 
 .outernotecontainer{
@@ -112,7 +110,7 @@
 }
 
 .conditiontable td, .conditiontable th {
-    font-size: 18px;
+    font-size: 16px;
     padding: 8px 20px 8px 20px;
 }
 
