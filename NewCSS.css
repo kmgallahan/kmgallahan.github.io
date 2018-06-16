@@ -107,7 +107,7 @@
     padding: 8px 20px 8px 20px;
 }
 
-.detailtable tr, .conditiontable tr {
+.detailtable tr:nth-child(even), .conditiontable tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
