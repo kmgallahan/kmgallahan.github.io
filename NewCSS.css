@@ -85,11 +85,11 @@
 .detailtable{
     border-collapse: collapse;
     cellpadding: 6;
+    border: 1px solid #ddd;
 }
 
 .detailtable td, .detailtable th {
     font-size: 20px;
-    border: 1px solid #ddd;
     padding: 8px 20px 8px 20px;
 }
 
@@ -110,8 +110,8 @@
 }
 
 .conditiontable td, .conditiontable th {
-    .detailtable
     font-size: 18px;
+    padding: 8px 20px 8px 20px;
 }
 
 .conditionsystemcontainer{
