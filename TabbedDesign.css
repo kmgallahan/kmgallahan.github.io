@@ -155,18 +155,21 @@ hr.fadestyle {
 
 .tab label {
     display: block;
-    padding: 6px 21px;
+    font-size:20px;
+    padding: 6px 10px;
     cursor: pointer;
     background-color: white;
+    color:#333;
 }
 
 .tabs .tab .content {
     display: none;
     overflow: hidden;
     width: 100%;
-    padding: 25px;
     position: absolute;
     left: 0px;
+    color:#333;
+    border:1px solid #dedede;
 }
 
 .tabinput:checked ~ label{
