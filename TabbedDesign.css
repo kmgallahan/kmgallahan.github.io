@@ -13,19 +13,6 @@
     background: url('https://rawgit.com/kmgallahan/CSSFiles/master/noise.jpg');
 }
 
-.tabgrain{
-    pointer-events: none;
-    display: block;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 90;
-    opacity: .07;
-    background-size: cover;
-    background-origin: padding-box;
-    background: url('https://rawgit.com/kmgallahan/CSSFiles/master/noise.jpg');
-}
-
 .note{
     padding: 1px 20px;
     background-color: #dbb700;
@@ -41,11 +28,6 @@
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.outercontainer{
-    max-width: 875px;
-    margin: auto; 
 }
 
 #maincontainer{
@@ -179,7 +161,7 @@ hr.fadestyle {
     border-color: #dedede;
 }
 
-.tabinput:not(:checked) ~ [id^="tab_content"] {
+.tabinput:checked ~ [id^="tab_content"] {
     z-index: 50;
     opacity: 1;
 }
