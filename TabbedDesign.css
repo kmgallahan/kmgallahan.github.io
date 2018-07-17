@@ -13,6 +13,19 @@
     background: url('https://rawgit.com/kmgallahan/CSSFiles/master/noise.jpg');
 }
 
+.tabgrain{
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 90;
+    opacity: .07;
+    background-size: cover;
+    background-origin: padding-box;
+    background: url('https://rawgit.com/kmgallahan/CSSFiles/master/noise.jpg');
+}
+
 .note{
     padding: 1px 20px;
     background-color: #dbb700;
