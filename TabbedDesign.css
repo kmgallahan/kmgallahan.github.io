@@ -174,7 +174,8 @@ hr.fadestyle {
 }
 
 .tabinput:checked ~ label{
-    background-color: #b7c7bd;
+    background: url('https://rawgit.com/kmgallahan/CSSFiles/master/greennoise.png');
+    background-size: cover;
     border-color: #dedede;
 }
 
