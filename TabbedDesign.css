@@ -140,55 +140,39 @@ hr.fadestyle {
 }
 
 .tabs{
-    width: 600px;
-    display: block;
-    margin: 40px auto;
+    width: 900px;
+    margin: 15px auto;
     position: relative;
 }
 
 .tabs .tab{
     float: left;
-    display: block;
 }
 
-.tabs .tab>input[type="radio"] {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
+.tabinput{
+    display: none;
 }
 
-.tabs .tab>label {
+.tab label {
     display: block;
     padding: 6px 21px;
-    font-size: 12px;
     cursor: pointer;
-    position: relative;
-    color: #FFF;
-    background: #4A83FD;
+    background-color: white;
 }
 
-.tabs .content {
+.tabs .tab .content {
     display: none;
     overflow: hidden;
-    width: 600px;
+    width: 100%;
     padding: 25px;
     position: absolute;
-    top: 27px;
-    left: 0;
-    background: #303030;
-    color: #DFDFDF;
-    
-    opacity:0;
+    left: 0px;
 }
 
-.tabs>.tab>[id^="tab"]:checked + label {
-    top: 0;
-    background: #303030;
-    color: #F5F5F5;
+.tabinput:checked ~ label{
+    background-color: #b7c7bd;
 }
 
-.tabs>.tab>[id^="tab"]:checked ~ [id^="tab_content"] {
+.tabinput:checked ~ [id^="tab_content"] {
     display: block;
-   
-    opacity: 1;
 }
