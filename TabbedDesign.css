@@ -187,7 +187,7 @@ hr.fadestyle {
     color: #F5F5F5;
 }
 
-.tabs>.tab>[id^="tab"]:checked ~ [id^="tab-content"] {
+.tabs>.tab>[id^="tab"]:checked ~ [id^="tab_content"] {
     display: block;
    
     opacity: 1;
