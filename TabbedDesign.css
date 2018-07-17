@@ -24,7 +24,7 @@
 }
 
 .sectionheading{
-    padding: 15px 5% 15px 5%;
+    padding: 10px 5% 10px 5%;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -115,7 +115,8 @@ hr.fadestyle {
 .tab label {
     display: block;
     font-size:20px;
-    padding: 6px 15px 8px;
+    text-align: center;
+    padding: 10px 7px 10px;
     cursor: pointer;
     background-color: white;
     color:#333;
@@ -144,9 +145,20 @@ hr.fadestyle {
     background: url('https://rawgit.com/kmgallahan/CSSFiles/master/greennoise.png');
     border-color: #dedede;
     z-index: 80;
+    font-weight: bold;
 }
 
 .tabinput:checked ~ [id^="tab_content"] {
     z-index: 50;
     opacity: 1;
 }
+
+.tab label::after {
+    display: block;
+    content: attr(for);
+    font-weight: bold;
+    height: 1px;
+    color: transparent;
+    overflow: hidden;
+    visibility: hidden;
+  }
