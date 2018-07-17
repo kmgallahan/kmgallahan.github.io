@@ -13,28 +13,6 @@
     background: url('https://rawgit.com/kmgallahan/CSSFiles/master/noise.jpg');
 }
 
-#navbuttoncontainer{
-    text-align: center;
-    font-size:20px;
-    height: auto;
-}
-
-.navbutton{	
-    text-decoration: unset;	
-    background-color: #b7c7bd;	
-    color: black;	
-    padding: 6px 10px;	
-    display: inline-block;	
-    box-sizing: border-box;	
-}
-
-.navbuttonwrapper{
-    display: inline-block;
-    position: relative;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
 .note{
     padding: 1px 20px;
     background-color: #dbb700;
@@ -159,7 +137,7 @@ hr.fadestyle {
 .tab label {
     display: block;
     font-size:20px;
-    padding: 6px 10px;
+    padding: 6px 15px;
     cursor: pointer;
     background-color: white;
     color:#333;
@@ -169,15 +147,17 @@ hr.fadestyle {
 }
 
 .tabs .tab .content {
-    display: block;
+    z-index: 10;
     overflow: hidden;
     width: 100%;
     position: absolute;
     left: 0px;
     color:#333;
+    background:white;
     border-color: #dedede;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
+    opacity: 0;
 }
 
 .tabinput:checked ~ label{
@@ -186,5 +166,6 @@ hr.fadestyle {
 }
 
 .tabinput:not(:checked) ~ [id^="tab_content"] {
-    display: none;
+    z-index: 50;
+    opacity: 1;
 }
