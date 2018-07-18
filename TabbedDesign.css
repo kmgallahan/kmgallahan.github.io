@@ -1,4 +1,4 @@
-.tabs * {
+.listingcontainer * {
 	color: #333333;
 
 	font-size: 20px;
@@ -16,7 +16,7 @@
 }
 
 /* Section seperators */
-.sectionheading {
+.listingcontainer .sectionheading {
 	margin: 15px 0;
 	padding: 10px 0;
 
@@ -29,17 +29,17 @@
 }
 
 /* Left-aligned content text */
-.innertextcontainer {
+.listingcontainer .innertextcontainer {
 	margin: 15px 7%;
 }
 
 /* Container for listing photos */
-.gallerycontainer {
+.listingcontainer .gallerycontainer {
 	margin: 0 5%;
 }
 
 /* Individual photo styling */
-.galleryimage {
+.listingcontainer .galleryimage {
 	position: relative;
 
 	max-width: 100%;
@@ -65,7 +65,7 @@
 	font-size: 16px;
 }
 
-.conditionsystemcontainer {
+.listingcontainer .conditionsystemcontainer {
 	margin-top: 15px;
 	padding: 0 5% 10px 5%;
 
@@ -74,23 +74,23 @@
 	font-size: 18px;
 }
 
-.policytext hr {
+.listingcontainer .policytext hr {
 	font-size: 18px;
 }
 
-.policytext {
+.listingcontainer .policytext {
 	padding: 0 7%;
 
 	font-size: 16px;
 }
 
-.horizontaldivider {
+.listingcontainer .horizontaldivider {
 	height: 1px;
 
 	border-top: 1px solid #DEDEDE;
 }
 
-.tabs {
+.listingcontainer {
 	position: relative;
 
 	width: 900px;
@@ -99,15 +99,15 @@
 	text-decoration: unset;
 }
 
-.tabs .tab {
+.listingcontainer .tab {
 	float: left;
 }
 
-.tabinput {
+.listingcontainer .tabinput {
 	display: none;
 }
 
-.tab label {
+.listingcontainer .tab label {
 	position: relative;
 
 	display: block;
@@ -124,7 +124,7 @@
 	background-color: white;
 }
 
-.tabs .tab .content {
+.listingcontainer .tab .content {
 	position: absolute;
 	z-index: 10;
 	left: 0;
@@ -141,7 +141,7 @@
 	background: url("https://rawgit.com/kmgallahan/CSSFiles/master/greynoise.png");
 }
 
-.tabinput:checked ~ label {
+.listingcontainer .tabinput:checked ~ label {
 	z-index: 30;
 
 	border-color: #DEDEDE;
@@ -150,13 +150,13 @@
 	font-weight: bold;
 }
 
-.tabinput:checked ~ [id^="tab_content"] {
+.listingcontainer .tabinput:checked ~ [id^="tab_content"] {
 	z-index: 20;
 
 	opacity: 1;
 }
 
-.tab label::after {
+.listingcontainer .tab label::after {
 	display: block;
 	visibility: hidden;
 	overflow: hidden;
