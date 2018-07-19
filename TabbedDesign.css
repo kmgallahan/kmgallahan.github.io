@@ -36,6 +36,7 @@
 /* Container for listing photos */
 .listingcontainer .gallerycontainer {
 	margin: 0 5%;
+	text-align: center;
 }
 
 /* Individual photo styling */
