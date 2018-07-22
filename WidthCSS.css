@@ -101,8 +101,7 @@
 	position: relative;
 
 	width: 100%;
-	max-width: 900px;
-	margin: 15px auto;
+	margin: 15px 0px;
 
 	text-decoration: unset;
 }
@@ -178,11 +177,10 @@
 	font-weight: bold;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
     .listingcontainer{
-    	width: 100%;
-    	max-width: 100%;
-    	margin-left: 0px;
-    	margin-right: 0px;
+    	max-width: 900px;
+    	margin-left: auto;
+    	margin-right: auto;
     }
 }
