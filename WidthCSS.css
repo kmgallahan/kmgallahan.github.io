@@ -100,7 +100,8 @@
 .listingcontainer {
 	position: relative;
 
-	width: 900px;
+	width: 100%;
+	max-width: 900px;
 	margin: 15px auto;
 
 	text-decoration: unset;
