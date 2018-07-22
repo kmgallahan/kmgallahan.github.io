@@ -36,7 +36,6 @@
 /* Container for listing photos */
 .listingcontainer .gallerycontainer {
 	margin: 0 5%;
-	text-align: center;
 }
 
 /* Individual photo styling */
@@ -48,15 +47,15 @@
 	margin-bottom: 10px;
 }
 
-.detailtable , .conditiontable {
+.detailtable , .conditiontable, relatedtable {
 	border-collapse: collapse;
 }
 
-.detailtable td , .detailtable th {
+.detailtable td , .detailtable th, .relatedtable td, .relatedtable th {
 	padding: 8px 10px 8px 10px;
 }
 
-.detailtable tr , .conditiontable tr {
+.detailtable tr , .conditiontable tr, .relatedtable {
 	border-bottom: 1px solid #DEDEDE;
 }
 
