@@ -55,8 +55,13 @@
 	padding: 8px 10px 8px 10px;
 }
 
-.detailtable tr , .conditiontable tr, .relatedtable {
+.detailtable tr , .conditiontable tr  {
 	border-bottom: 1px solid #DEDEDE;
+}
+
+.relatedtable tr{
+	border-bottom: 1px solid #DEDEDE;
+	border-top: 1px solid #DEDEDE;
 }
 
 .conditiontable td , .conditiontable th {
