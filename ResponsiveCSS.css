@@ -1,0 +1,193 @@
+.compactview *, tabbedview * {
+	color: #333333;
+
+    font-size: 20px;
+    
+    text-decoration: unset;
+}
+
+.compactview{
+    width: 100%;
+    display: none;
+}
+
+.tabbedview{
+    max-width: 900;
+    margin: 0px auto;
+}
+
+/* Title at the top of the listing */
+#listingtitleheader {
+	margin: 20px;
+
+	text-align: center;
+
+	font-weight: bold;
+	font-size: 22px;
+}
+
+/* Section seperators */
+.sectionheading {
+	margin: 15px 0;
+	padding: 8px 0;
+
+	text-align: center;
+    line-height: 1.3; /* Because Safari... */
+
+	background: url("https://rawgit.com/kmgallahan/CSSFiles/master/greennoise.png");
+
+	font-weight: bold;
+	font-size: 22px;
+}
+
+/* Left-aligned content text */
+.innertextcontainer {
+	margin: 15px 7%;
+}
+
+/* Container for listing photos */
+.gallerycontainer {
+	margin: 0 5%;
+	
+	text-align: center;
+}
+
+/* Individual photo styling */
+.galleryimage {
+	position: relative;
+
+	max-width: 100%;
+	max-height: 700px;
+	margin-bottom: 10px;
+}
+
+.detailtable , .conditiontable, relatedtable {
+	border-collapse: collapse;
+}
+
+.detailtable td , .detailtable th, .relatedtable td, .relatedtable th {
+	padding: 8px 10px 8px 10px;
+}
+
+.detailtable tr , .conditiontable tr  {
+	border-bottom: 1px solid #DEDEDE;
+}
+
+.relatedtable tr{
+	border-bottom: 1px solid #DEDEDE;
+	border-top: 1px solid #DEDEDE;
+}
+
+.conditiontable td , .conditiontable th {
+	padding: 8px 10px 8px 10px;
+
+	font-size: 16px;
+}
+
+.conditionsystemcontainer {
+	margin-top: 15px;
+	padding: 0 5% 10px 5%;
+
+	border: 1px solid #DEDEDE;
+
+	font-size: 18px;
+}
+
+.horizontaldivider {
+	height: 1px;
+
+	border-top: 1px solid #DEDEDE;
+}
+
+.tab {
+	float: left;
+}
+
+.tabinput {
+	display: none;
+}
+
+.tab label {
+	position: relative;
+
+	display: block;
+
+	padding: 10px 7px 10px;
+
+	cursor: pointer;
+	text-align: center;
+    line-height: 1.3; /* Because Safari... */
+
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: white;
+	background-color: white;
+}
+
+.tab .content {
+	position: absolute;
+	z-index: 10;
+	left: 0;
+
+	overflow: hidden;
+
+	width: 100%;
+	margin-top: -1;
+
+	opacity: 0;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: #DEDEDE;
+	background: url("https://rawgit.com/kmgallahan/CSSFiles/master/greynoise.png");
+}
+
+.tabinput:checked ~ label {
+	z-index: 30;
+
+	border-color: #DEDEDE;
+	background: url("https://rawgit.com/kmgallahan/CSSFiles/master/greennoise.png");
+
+	font-weight: bold;
+}
+
+.tabinput:checked ~ [id^="tab_content"] {
+	z-index: 20;
+
+	opacity: 1;
+}
+
+.tab label::after {
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+
+	height: 1px;
+
+	content: attr(for);
+
+	color: transparent;
+
+	font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    .compactview{
+        display: block;
+    }
+
+    .tabbedview{
+        display: none;
+    }
+
+	#listingtitleheader {
+		margin: 10px;
+	}
+
+	.gallerycontainer {
+		margin: 0 0;
+	}
+
+	.innertextcontainer {
+		margin: 15px 2%;
+	}
+}
