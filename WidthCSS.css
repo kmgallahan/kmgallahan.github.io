@@ -177,10 +177,10 @@
 	font-weight: bold;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 899px) {
     .listingcontainer{
-    	max-width: 900px;
-    	margin-left: auto;
-    	margin-right: auto;
+    	width: 100%;
+    	margin-left: 0;
+    	margin-right: 0;
     }
 }
