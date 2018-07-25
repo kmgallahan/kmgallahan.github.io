@@ -7,14 +7,15 @@
 .listingcontainer {
 	position: relative;
 	
-	margin: 15px auto;
+	max-width: 900;
+	margin: 0px auto;
 
 	text-decoration: unset;
 }
 
 /* Title at the top of the listing */
 #listingtitleheader {
-	margin: 30px 0;
+	margin: 0px 0 20px 0;
 
 	text-align: center;
 
