@@ -1,4 +1,4 @@
-.compactview *, tabbedview * {
+.compactview *, .tabbedview * {
 	color: #333333;
 
     font-size: 20px;
@@ -47,7 +47,7 @@
 
 /* Container for listing photos */
 .gallerycontainer {
-	margin: 0 5%;
+	margin: 15px 5%;
 	
 	text-align: center;
 }
