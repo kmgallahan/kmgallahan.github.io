@@ -15,19 +15,20 @@
 
 /* Title at the top of the listing */
 #listingtitleheader {
-	margin: 0px 0 20px 0;
+	margin-bottom: 20px;
 
 	text-align: center;
 
 	background-color: white;
 
 	font-weight: bold;
+	font-size: 22px;
 }
 
 /* Section seperators */
-.listingcontainer .sectionheading {
+.sectionheading {
 	margin: 15px 0;
-	padding: 10px 0;
+	padding: 8px 0;
 
 	text-align: center;
     line-height: 1.3; /* Because Safari is bad... */
@@ -35,22 +36,23 @@
 	background: url("https://rawgit.com/kmgallahan/CSSFiles/master/greennoise.png");
 
 	font-weight: bold;
+	font-size: 22px;
 }
 
 /* Left-aligned content text */
-.listingcontainer .innertextcontainer {
+.innertextcontainer {
 	margin: 15px 7%;
 }
 
 /* Container for listing photos */
-.listingcontainer .gallerycontainer {
+.gallerycontainer {
 	margin: 0 5%;
 	
 	text-align: center;
 }
 
 /* Individual photo styling */
-.listingcontainer .galleryimage {
+.galleryimage {
 	position: relative;
 
 	max-width: 100%;
@@ -81,7 +83,7 @@
 	font-size: 16px;
 }
 
-.listingcontainer .conditionsystemcontainer {
+.conditionsystemcontainer {
 	margin-top: 15px;
 	padding: 0 5% 10px 5%;
 
@@ -90,31 +92,21 @@
 	font-size: 18px;
 }
 
-.listingcontainer .policytext hr {
-	font-size: 18px;
-}
-
-.listingcontainer .policytext {
-	padding: 0 7%;
-
-	font-size: 16px;
-}
-
-.listingcontainer .horizontaldivider {
+.horizontaldivider {
 	height: 1px;
 
 	border-top: 1px solid #DEDEDE;
 }
 
-.listingcontainer .tab {
+.tab {
 	float: left;
 }
 
-.listingcontainer .tabinput {
+.tabinput {
 	display: none;
 }
 
-.listingcontainer .tab label {
+.tab label {
 	position: relative;
 
 	display: block;
@@ -131,7 +123,7 @@
 	background-color: white;
 }
 
-.listingcontainer .tab .content {
+.tab .content {
 	position: absolute;
 	z-index: 10;
 	left: 0;
@@ -148,7 +140,7 @@
 	background: url("https://rawgit.com/kmgallahan/CSSFiles/master/greynoise.png");
 }
 
-.listingcontainer .tabinput:checked ~ label {
+.tabinput:checked ~ label {
 	z-index: 30;
 
 	border-color: #DEDEDE;
@@ -157,13 +149,13 @@
 	font-weight: bold;
 }
 
-.listingcontainer .tabinput:checked ~ [id^="tab_content"] {
+.tabinput:checked ~ [id^="tab_content"] {
 	z-index: 20;
 
 	opacity: 1;
 }
 
-.listingcontainer .tab label::after {
+.tab label::after {
 	display: block;
 	visibility: hidden;
 	overflow: hidden;
@@ -182,5 +174,13 @@
     	width: 100%;
     	margin-left: 0;
     	margin-right: 0;
-    }
+	}
+
+	.gallerycontainer {
+		margin: 0 0;
+	}
+
+	.innertextcontainer {
+		margin: 15px 0;
+	}
 }
