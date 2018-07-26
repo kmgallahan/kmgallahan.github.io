@@ -19,8 +19,8 @@
 }
 
 /* Title at the top of the listing */
-#listingtitleheader {
-	margin: 20px;
+.listingtitle {
+	margin: 20px 0;
 
 	text-align: center;
 
@@ -43,7 +43,7 @@
 }
 
 /* Left-aligned content text */
-.innertextcontainer {
+.textcontainer {
 	margin: 15px 7%;
 }
 
@@ -114,7 +114,7 @@
 
 	display: block;
 
-	padding: 10px 7px 10px;
+	padding: 8px 7px 8px;
 
 	cursor: pointer;
 	text-align: center;
@@ -123,7 +123,8 @@
 	border-width: 1px 1px 0 1px;
 	border-style: solid;
 	border-color: white;
-	background-color: white;
+    background-color: white;
+    font-size: 22px;
 }
 
 .tab .content {
@@ -181,7 +182,7 @@
         display: none;
     }
 
-	#listingtitleheader {
+	.listingtitle {
 		margin: 10px;
 	}
 
@@ -189,7 +190,7 @@
 		margin: 0 0;
 	}
 
-	.innertextcontainer {
+	.textcontainer {
 		margin: 15px 2%;
 	}
 }
