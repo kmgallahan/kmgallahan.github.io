@@ -86,17 +86,16 @@
     border-bottom: 1px solid #DEDEDE;
 }
 
-.conditiontable td, .conditiontable th, .conditionsystemcontainer li {
+.conditionsystemcontainer * {
     font-size: 16px;
 }
 
 .conditionsystemcontainer {
     margin-top: 15px;
     padding: 0 5% 10px 5%;
+    max-width: 400px;
 
     border: 1px solid #DEDEDE;
-
-    font-size: 18px;
 }
 
 .horizontaldivider {
