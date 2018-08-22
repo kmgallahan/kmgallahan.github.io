@@ -69,7 +69,7 @@
     border-collapse: collapse;
 }
 
-.detailtable td, .detailtable th, .relatedtable td, .relatedtable th {
+.detailtable td, .detailtable th, .relatedtable td, .relatedtable th, .conditiontable td, .conditiontable th {
     padding: 8px 10px 8px 10px;
 }
 
@@ -86,9 +86,7 @@
     border-bottom: 1px solid #DEDEDE;
 }
 
-.conditiontable td, .conditiontable th {
-    padding: 8px 10px 8px 10px;
-
+.conditiontable td, .conditiontable th, .conditionsystemcontainer li {
     font-size: 16px;
 }
 
