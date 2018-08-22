@@ -65,7 +65,7 @@
     margin-bottom: 10px;
 }
 
-.detailtable, .conditiontable, relatedtable {
+.detailtable, .conditiontable, .relatedtable {
     border-collapse: collapse;
 }
 
@@ -73,8 +73,12 @@
     padding: 8px 10px 8px 10px;
 }
 
-.detailtable tr, .conditiontable tr {
+.detailtable tr {
     border-bottom: 1px solid #DEDEDE;
+}
+
+.conditiontable tr {
+    border-top: 1px solid #DEDEDE;
 }
 
 .relatedtable tr {
