@@ -201,21 +201,10 @@
 @supports ( -moz-appearance:none ) {
     .compactview {
         display: block;
+        max-width: 850;
     }
 
     .tabbedview {
         display: none;
-    }
-
-    .listingtitle {
-        margin: 10px;
-    }
-
-    .gallerycontainer {
-        margin: 0 0;
-    }
-
-    .textcontainer {
-        margin: 15px 2%;
     }
 }
