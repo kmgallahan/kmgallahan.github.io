@@ -197,3 +197,16 @@
         margin: 15px 2%;
     }
 }
+
+/* Because Firefox is the only browser that doesn't handle the tabs correctly... */
+@supports ( -moz-appearance:none ) {
+    .compactview {
+        display: block;
+        max-width: 850;
+        margin: 0 auto;
+    }
+
+    .tabbedview {
+        display: none;
+    }
+}
