@@ -38,7 +38,7 @@
 
     text-align: center;
 
-    background: url("https://rawgit.com/kmgallahan/CSSFiles/master/greennoise.png");
+    background: url("https://kmgallahan.github.io/greennoise.png");
 
     font-size: 22px;
     font-weight: bold;
@@ -144,14 +144,14 @@
     border-width: 1px 1px 1px 1px;
     border-style: solid;
     border-color: #DEDEDE;
-    background: url("https://rawgit.com/kmgallahan/CSSFiles/master/greynoise.png");
+    background: url("https://kmgallahan.github.io/greynoise.png");
 }
 
 .tabinput:checked ~ label {
     z-index: 30;
 
     border-color: #DEDEDE;
-    background: url("https://rawgit.com/kmgallahan/CSSFiles/master/greennoise.png");
+    background: url("https://kmgallahan.github.io/greennoise.png");
 
     font-weight: bold;
 }
