@@ -65,11 +65,11 @@
     margin-bottom: 10px;
 }
 
-.detailtable, .conditiontable, .relatedtable {
+.detailtable, .conditiontable, .relatedtable, .shippingtable {
     border-collapse: collapse;
 }
 
-.detailtable td, .detailtable th, .relatedtable td, .relatedtable th, .conditiontable td, .conditiontable th {
+.detailtable td, .detailtable th, .relatedtable td, .relatedtable th, .conditiontable td, .conditiontable th, .shippingtable td, .shippingtable th {
     padding: 8px 10px 8px 10px;
 }
 
