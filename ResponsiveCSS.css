@@ -142,6 +142,9 @@
     z-index: 10;
     left: 0;
 
+    width: -moz-available;
+    width: -webkit-fill-available;
+    
     overflow: hidden;
 
     margin-top: -1;
